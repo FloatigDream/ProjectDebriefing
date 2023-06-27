@@ -1,0 +1,24 @@
+
+.list {
+		list-style: none;
+}
+.index-item {
+		display: flex;
+		justify-content: space-between;
+		border: 0.03125rem solid #CDCDCD;
+		margin-bottom: 0.46875rem;
+}
+.index-item-leftBox {
+		padding: 0.3125rem;
+		width: 55%;
+}
+.index-item-rightBox {
+		padding: 0.3125rem;
+		width: 45%;
+}
+.index-item-leftBox-dayBox-text,.index-item-rightBox-lastDayBox-text,.index-item-rightBox-numBox-text{
+		font-size: 0.4375rem;
+}
+.index-item-leftBox-titleBox-text{
+		font-size: 0.9375rem;
+}

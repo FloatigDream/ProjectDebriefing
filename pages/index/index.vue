@@ -1,6 +1,6 @@
 <template>
 	<view class="index-body">
-		<view class="index-item">
+		<view class="index-item" v-for="item in num">
 			<view class="index-item-leftBox">
 				<view class="index-item-leftBox-dayBox">
 					<text class="index-item-leftBox-dayBox-text">
@@ -34,7 +34,9 @@
 <script>
 	export default {
 		data() {
-			return {}
+			return {
+				num:11
+			}
 		},
 		onLoad() {
 
@@ -54,15 +56,24 @@
 		display: flex;
 		justify-content: space-between;
 		border: 1rpx solid #CDCDCD;
+		margin-bottom: 15rpx;
 	}
 
 	.index-item-leftBox {
 		padding: 10rpx;
-		width: 60%;
+		width: 55%;
 	}
 
 	.index-item-rightBox {
 		padding: 10rpx;
-		width: 40%;
+		width: 45%;
+	}
+	
+	.index-item-leftBox-dayBox-text,.index-item-rightBox-lastDayBox-text,.index-item-rightBox-numBox-text{
+		font-size: 14rpx;
+	}
+	
+	.index-item-leftBox-titleBox-text{
+		font-size: 30rpx;
 	}
 </style>

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/add/add"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#07C160",
+    "list": [
+      {
+        "text": "查看",
+        "iconPath": "static/yanjing.png",
+        "selectedIconPath": "static/yanjing_1.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "添加",
+        "iconPath": "static/tianjia.png",
+        "selectedIconPath": "static/tianjia_1.png",
+        "pagePath": "pages/add/add"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/wode_1.png",
+        "pagePath": "pages/home/home"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
